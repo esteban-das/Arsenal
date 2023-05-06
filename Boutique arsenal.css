@@ -1,0 +1,73 @@
+nav .menu-icon {
+  width: 60px;
+  cursor: pointer;
+}
+
+nav ul {
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+* {
+  margin: 0;
+}
+
+
+.overlay {
+  position: absolute;
+  top: O;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('boutique.jpg')center center no-repeat;
+  background-size: cover;
+  z-index: -100;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  font-family: 'Tw Cen Mt';
+  font-size: 25px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0px 10px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffa500;
+  font-size: 1.4rem; 
+  transition: color .3s;
+}
+
+nav ul li a:hover {
+  color: #2eb0f0;
+
+}
+
+.photo {
+  text-align: center;
+}
+
+.texte {
+
+}

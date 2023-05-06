@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+#logo {
+  height: 3.5%;
+  width: 3.5%;
+}
+
+header, footer {
+  background-color: rgb(42, 42, 42)
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+}
+
+nav div {
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color:white;
+}
+
+h1 {
+  margin: 15px;
+  font-size: 2em;
+
+}
+
+.photo {
+  width: 100%;
+}
+
+.bas {
+  display: flex;
+  justify-content: left;
+
+}
+
+footer {
+  color: white;
+}
+
+.notrejeu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 20px;
+}
+
+.notrejeu img {
+  width: 100%;
+  height: 100%;  
+  object-fit: cover;
+}
+
+.intro-accueil {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+}
+

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    font-family: 'Tw Cen Mt';
+    letter-spacing: 2;
+}
+
+header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0px 10px;
+  }
+  
+  
+  nav .menu-icon {
+    width: 60px;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 20px;
+  
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem; 
+    transition: color .3s;
+  }
+  
+  nav ul li a:hover {
+    color: #2eb0f0;
+  
+}
+
+.overlay {
+    position: absolute;
+    top: O;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('batlefield.jpg')center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    font-size: 65px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: white;
+ }
+
+body {
+    font-size: 14px;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    width: auto;
+    width: 95%;
+}
+
+.entete {
+    display: flex;
+    flex-direction: row;
+}
+
+.editions {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+}
+
+.editions:hover {
+    opacity: 1;
+}
+
+.placement {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.title {
+    margin: 15px;
+    text-align: center;
+    color: #83a697;
+    font-size: 40px;
+}
+
+.version {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.classe {
+    top: O;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50vh;
+    background: url('bas.jpg')center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+.position  {
+    position: absolute;
+    font-size: 40px;
+    color: #ffff00;
+    bottom: 10px;
+}
+
+.cancre {
+    left: 245px;
+    position: absolute;
+    font-size: 40px;
+    color: #ffff00;
+    bottom: 10px;
+}
+ 
+.lol {
+    right: 245px;
+    position: absolute;
+    font-size: 40px;
+    color: #ffff00;
+    bottom: 10px;
+}
+
+.size {
+    width: 35%;
+}
+
+.lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }
